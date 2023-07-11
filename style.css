@@ -5,15 +5,14 @@
     justify-content: space-between;
     background: rgba(229, 84, 115, 0.10);
 }
-.btn{
-
-}
 .banner-content{
     max-width: 500px;
     
 }
 .banner .image{
     width: 500px;
+    padding: 30px 30px 0px 150px;
+    margin-bottom: 0;
 }
 .btn{
     border-radius: 5px;
