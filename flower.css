@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+}
+.banner-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+}
+
+
+.btn{
+    background-color: green;
+    color:white;
+}
+.description{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
