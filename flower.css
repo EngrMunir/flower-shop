@@ -77,10 +77,10 @@
     /* margin-top: 5px; */
     /* margin-bottom: 20px; */
     color: #272727;
-font-family: Lato;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 } 
 .latest{
     padding: 130px;
@@ -88,6 +88,20 @@ line-height: normal;
     margin: 130px;
     background-image: url("../Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
+    text-align: center;
+}
+.branch{
+        padding: 30px 30px 0px 150px;
+        /* display: flex; */
+        align-items: center;
+        background: rgba(229, 84, 115, 0.10);
+        width: 500;
+}
+.branch-address{
+    display: flex;
+    justify-content: space-between;
+}
+.branch-item{
     text-align: center;
 }
 footer{
@@ -99,8 +113,13 @@ footer{
     padding: 130px 230px;
     text-align: center;
 }
-.foot{
+.footer{
+    width: 500px;
+    display: flex;
     text-align: center;
+}
+.footer-div{
+    margin: auto;
 }
 .insta-round{
     width: 464px;
