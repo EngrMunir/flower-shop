@@ -22,3 +22,25 @@
     width: 50%;
     margin: auto;
 }
+.registration{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+    margin-top: 30px;
+}
+.left-side-container{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.social-network-image{
+    display: flex;
+    gap: 10px;
+}
+.latest{
+    height: 100vh;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+}
