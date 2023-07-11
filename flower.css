@@ -1,46 +1,92 @@
-.container{
+.banner{
+    padding: 30px 30px 0px 150px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
     background: rgba(229, 84, 115, 0.10);
-    height: 100vh;
 }
-.banner-container{
-    display: flex;
-    text-align: center;
-    align-items: center;
-   
+.banner-content{
+    max-width: 500px;
+    
 }
-
-
-.btn{
-    background-color: green;
-    color:white;
+.banner .image{
+    width: 500px;
 }
-.description{
-    padding: 10px;
-    width: 50%;
-    margin: auto;
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 .registration{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+    margin: 130px;
+}
+.registration-content{
+    max-width: 500px;
+    
+}
+.banner .reg-image{
+    width: 500px;
+}
+.insta{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    /* margin: 130px; */
+}
+.insta-info-container{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background: rgba(229, 84, 115, 0.10);
-    height: 100vh;
-    margin-top: 30px;
 }
-.left-side-container{
-    padding: 10px;
-    width: 50%;
-    margin: auto;
+
+.section-title{
+    color: #181818;;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
-.social-network-image{
-    display: flex;
-    gap: 10px;
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
+
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+} 
 .latest{
-    height: 100vh;
+    padding: 130px;
+    border-radius: 10px;
+    margin: 130px;
     background-image: url("../Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
+    text-align: center;
+}
+footer{
+    display: flex;
+    gap: 100px;
+    background: black;
+    color: white;
+    margin-top: 100px;
+    padding: 130px 230px;
+    text-align: center;
 }
